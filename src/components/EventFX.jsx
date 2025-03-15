@@ -43,7 +43,7 @@ Over 100 scholarships are available to attendees who fund their wallet at the ev
                 <img
                   src={fx}
                   alt=""
-                  className="absolute right-0 bottom-3 md:right-6 lg:right-1 md:bottom-7 lg:bottom-5 w-24 md:w-44 h-fit"
+                  className="absolute right-0 bottom-3 md:right-6 lg:right-1 md:bottom-7 lg:bottom-5 w-24 md:w-44"
                 />
               </div>
             </div>

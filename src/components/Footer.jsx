@@ -30,15 +30,15 @@ const Footer = () => {
         <p className="interFont text-xs py-4 pb-2">&copy;2025 Pluralcode Academy. all right reserved</p>
         <div className="flex gap-1 py-4 ">
             <p className="interFont text-xs md:w-[16rem] ">Pluralcode is accredited by the Academic Council of Training & Development, USA.</p>
-            <img src={act} className="w-16 h-fit" loading="lazy" alt=""/>
+            <img src={act} className="w-16" loading="lazy" alt=""/>
         </div>
         <div className="flex gap-1 py-4 ">
             <p className="interFont text-xs md:w-[16rem]">Pluralcode is accredited by the International Association for Quality Assurance (QAHE) ISO Certified</p>
-            <img src={act2} className="w-16 h-fit" loading="lazy" alt=""/>
+            <img src={act2} className="w-16" loading="lazy" alt=""/>
         </div>
         <div className="flex gap-1 py-4 ">
             <p className="interFont text-xs md:w-[16rem]">Pluralcode is accredited by the Skill Development Council, Canada</p>
-            <img src={sdc} className="w-16 h-fit" loading="lazy" alt=""/>
+            <img src={sdc} className="w-16" loading="lazy" alt=""/>
         </div>
         
       </div>

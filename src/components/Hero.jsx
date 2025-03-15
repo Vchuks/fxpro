@@ -18,7 +18,7 @@ const Hero = () => {
             <img
               src={fx}
               alt=""
-              className="absolute right-0 bottom-3 md:right-6 lg:right-1 md:bottom-6 w-24 md:w-44 h-fit"
+              className="absolute right-0 bottom-3 md:right-6 lg:right-1 md:bottom-6 w-24 md:w-44"
             />
             </div>
           </div>
@@ -28,7 +28,7 @@ const Hero = () => {
           </p>
         <Link to="/#join">
 
-          <button className="w-[21rem] bg-plcorange p-2 md:p-3 rounded-lg font-[gmedium] text-white text-sm mt-4">
+          <button className=" max-[345px]:w-full w-[21rem] bg-plcorange p-2 md:p-3 rounded-lg font-[gmedium] text-white text-sm mt-4">
             Join Event
           </button>
           </Link>

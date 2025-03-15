@@ -60,7 +60,7 @@ const Learn = () => {
       <div className="flex justify-center">
       <Link to="/#join">
 
-      <button className="w-[21rem] bg-plcorange p-2 md:p-3 rounded-lg font-[gmedium] text-white text-sm mt-10 md:mt-16">
+      <button className="max-[345px]:w-full w-[21rem] bg-plcorange p-2 md:p-3 rounded-lg font-[gmedium] text-white text-sm mt-10 md:mt-16">
               Join Event
             </button>
             </Link>
