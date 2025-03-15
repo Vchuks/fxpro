@@ -31,26 +31,31 @@ Over 100 scholarships are available to attendees who fund their wallet at the ev
               Welcome to
             </p>
             <div className="hero-text w-full  2xl:w-[750px] 2xl:text-7xl xxxl:text-8xl leading-tight lg:leading-none pt-2 md:pt-6 text-plcblue">
-             <p className="lg:w-[40rem] xl:w-full"> Pluralcode <span className="text-plcorange font-[gbold]">2025 </span>Event </p>
+              <p className="lg:w-[40rem] xl:w-full">
+                {" "}
+                Pluralcode{" "}
+                <span className="text-plcorange font-[gbold]">
+                  2025{" "}
+                </span>Event{" "}
+              </p>
               <div className="flex relative w-[10rem] md:w-[20.5rem] lg:w-[19.5rem]">
-                           <span>with</span>
-                          <img
-                            src={fx}
-                            alt=""
-                            className="absolute right-0 bottom-3 md:right-6 lg:right-1 md:bottom-7 lg:bottom-5 w-24 md:w-44 h-fit"
-                          />
-                          </div>
+                <span>with</span>
+                <img
+                  src={fx}
+                  alt=""
+                  className="absolute right-0 bottom-3 md:right-6 lg:right-1 md:bottom-7 lg:bottom-5 w-24 md:w-44 h-fit"
+                />
+              </div>
             </div>
             <pre
               dangerouslySetInnerHTML={{ __html: sanboxText }}
               className="md:py-4 w-full lg:w-[88%] text-sm md:text-base xxxl:text-[32px]"
               ref={eventref}
             />
-        <Link to="/#join">
-
-            <button className="max-[345px]:w-full w-[21rem] bg-plcorange p-2 md:p-3 rounded-lg font-[gmedium] text-white text-sm mt-4">
-              Join Event
-            </button>
+            <Link to="/#join">
+              <button className="max-[345px]:w-full w-[21rem] bg-plcorange p-2 md:p-3 rounded-lg font-[gmedium] text-white text-sm mt-4">
+                Join Event
+              </button>
             </Link>
             <div className="hidden lg:block absolute w-[35px] left-[50%] lg:left-[70%] xl:left-[50%] 2xl:left-[33%] xxxl:left-[28%] -bottom-2">
               <img src={curve3} alt="" className="w-full" loading="lazy" />

@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="hero xl:h-[690px] text-center flex justify-center">
       <div className="text-white relative pt-10 pb-4 md:pt-36 lg:pb-20 xl:pb-0 lg:pt-52">
-        <div className="w-full lg:w-[650px] relative m-auto xxxl:w-2/4" data-aos="fade-up" data-aos-duration="2000">
+        <div className="w-full lg:w-[650px] relative m-auto xxxl:w-2/4" data-aos="zoom-in-up" data-aos-duration="2000">
           <div className="text-center  leading-[1.2] font-['aristbold'] text-3xl md:text-[64px] w-90% max-[440px]:w-[80%] min-[530px]:w-[80%] md:w-[90%] m-auto lg:w-full xxxl:text-[120px]">
             
               {" "}

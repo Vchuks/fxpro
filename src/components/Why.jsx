@@ -15,7 +15,8 @@ const Why = () => {
         professionals, innovators, and industry leaders.
       </p>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 py-8">
-        <div className="w-full rounded-[52.9px] bg-[#FEE7C9] p-5 pb-0">
+        <div data-aos="zoom-out"
+            data-aos-duration="2000" className="w-full rounded-[52.9px] bg-[#FEE7C9] p-5 pb-0">
           <p className="text-[#0C0C0C] tracking-widest md:px-8 pt-4 text-xl md:text-2xl font-[aristbold]">
             EXPERT INSIGHTS
           </p>
@@ -32,7 +33,8 @@ const Why = () => {
             </div>
           </div>
         </div>
-        <div className="w-full rounded-[52.9px] bg-[#B6B5C7] p-5 pb-0">
+        <div data-aos="zoom-in"
+            data-aos-duration="2000" className="w-full rounded-[52.9px] bg-[#B6B5C7] p-5 pb-0">
           <p className="text-[#0C0C0C] tracking-widest md:px-8 lg:px-2 xl:px-8 pt-4 text-xl md:text-2xl font-[aristbold]">
             NETWORKING OPPORTUNITIES
           </p>
@@ -49,7 +51,8 @@ const Why = () => {
             </div>
           </div>
         </div>
-        <div className="w-full rounded-[52.9px] bg-[#B6B5C7] p-5 pb-0">
+        <div data-aos="zoom-out"
+            data-aos-duration="2000" className="w-full rounded-[52.9px] bg-[#B6B5C7] p-5 pb-0">
           <p className="text-[#0C0C0C] tracking-widest md:px-8 pr-4 pt-4 text-xl md:text-2xl font-[aristbold] md:text-right">
             INTERACTIVE LEARNING
           </p>
@@ -65,7 +68,8 @@ const Why = () => {
             </div>
           </div>
         </div>
-        <div className="w-full rounded-[52.9px] bg-[#FEE7C9] p-5 pb-0">
+        <div data-aos="zoom-in"
+            data-aos-duration="2000" className="w-full rounded-[52.9px] bg-[#FEE7C9] p-5 pb-0">
           <p className="text-[#0C0C0C] tracking-widest md:px-8 pr-4 pt-4 text-xl md:text-2xl font-[aristbold] md:text-right">
             LIVE DEMONSTRATIONS
           </p>

@@ -4,22 +4,27 @@ import icon2 from "../assets/images/vector (2).png";
 import icon3 from "../assets/images/vector (3).png";
 import icon4 from "../assets/images/vector (4).png";
 import UserMap from "./UserMap";
+import Swal from "sweetalert2";
 
 const Connect = () => {
-    useEffect(()=>{
-
-        const f = document.getElementById("formD")
-     f.addEventListener("submit", (e)=>{
-         const data = new FormData(f)
-         const action = e.target.action
-        e.preventDefault()
-        fetch(action,{
-            method:"POST",
-            body: data
-        }).then(() => alert('successful'))
-     })
-    
-    },[])
+  useEffect(() => {
+    const f = document.getElementById("formD");
+    f.addEventListener("submit", (e) => {
+      const data = new FormData(f);
+      const action = e.target.action;
+      e.preventDefault();
+      fetch(action, {
+        method: "POST",
+        body: data,
+      }).then(() => {
+        return Swal.fire({
+          title: "Successful!",
+          icon: "success",
+          confirmButtonText: "See you!",
+        });
+      });
+    });
+  }, []);
   return (
     <div
       className="px-4 lg:px-14 py-5 md:py-10 lg:py-10 bg-[#F0EFF3]"
@@ -92,8 +97,8 @@ const Connect = () => {
           </div>
           <div className="w-full px-0 md:px-5 pt-6">
             <form
-            id="formD"
-             action="https://script.google.com/macros/s/AKfycbzZ89xyGWTtoJFjh53h3GsjRFb3QrznkmtbeMrnAtK0_7n9P-qXZlyFr6safxm8cZ7b8g/exec"
+              id="formD"
+              action="https://script.google.com/macros/s/AKfycbzZ89xyGWTtoJFjh53h3GsjRFb3QrznkmtbeMrnAtK0_7n9P-qXZlyFr6safxm8cZ7b8g/exec"
               className="w-full lg:w-[90%] lg:m-auto xl:ml-auto bg-[#FFFAF4] text-[#1C1A1A] syne rounded-3xl md:rounded-[52.9px] p-4 md:p-6 py-8 md:py-16"
             >
               <h2 className="text-xl md:text-[32px] font-[aristbold]">
