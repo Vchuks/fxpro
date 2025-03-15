@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+@font-face {
+  font-family: aristotelica;
+  src: url("./assets/fonts/Aristotelica-Display-Bold-trial.ttf");
+}
+@font-face {
+  font-family: aristbold;
+  src: url("./assets/fonts/Aristotelica-Display-Bold-trial.ttf");
+}
+@font-face {
+  font-family: aristlight;
+  src: url("./assets/fonts/Aristotelica-Display-Light-trial.ttf");
+}
+@font-face {
+  font-family: aristsemibold;
+  src: url("./assets/fonts/Aristotelica-Display-DemiBold-trial.ttf");
+}
+@font-face {
+  font-family: gsemibold;
+  src: url("./assets/fonts/Gilroy-SemiBold.ttf");
+}
+@font-face {
+  font-family: gmedium;
+  src: url("./assets/fonts/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: gregular;
+  src: url("./assets/fonts/Gilroy-Regular.ttf");
+}
+@font-face {
+  font-family: gextrabold;
+  src: url("./assets/fonts/Gilroy-ExtraBold.ttf");
+}
+@font-face {
+  font-family: gbold;
+  src: url("./assets/fonts/Gilroy-Bold.ttf");
+}
+
+
+.hero{
+  background: linear-gradient(#222057BA, #222057BA), url('./assets/images/herobg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: aristbold;
+}
+
+.hero-text{
+  width: 700px;
+  font-size: 64px;
+  font-family: aristbold;
+}
+pre{
+  font-family: gmedium;
+  white-space:pre-line ;
+  display: block;
+}
+.interFont{
+  font-family: "Inter", sans-serif;
+  /* font-weight: 500; */
+}
+.syne{
+  font-family: "Syne", sans-serif;
+}
+.foot h5{
+  font-family: gsemibold;
+  padding-bottom: 5px;
+}
+.foot a{
+  font-family: gregular;
+}
+button{
+  cursor: pointer;
+}
+
+@media (min-width: 1020px) and (max-width: 1025px) {
+  .hero-text{
+    width: 500px;
+  }
+}
+@media (max-width: 900px) {
+  .hero{
+    background-size: contain;
+  }
+  
+  .foot a{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 855px) {
+  .hero{
+    background-size: cover;
+  }
+  
+
+}
+@media (max-width: 600px) {
+  .hero-text{
+    width: 100%;
+    font-size: 30px;
+  }
+  
+
+}
+@media (min-width: 343px) and (max-width: 345px) {
+  .hero{
+    background-size: contain;
+  }
+
+}

@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: aristotelica;
+  src: url("./assets/fonts/Aristotelica-Display-Bold-trial.ttf");
+}
+
+@theme{
+  --color-plcblue: #222057;
+  --color-plcorange: #F8991D;
+  --color-plcblack: #232323;
+}
+:root {
+  font-family: aristotelica;
+  font-weight: 400;
+  color: #232323;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+
