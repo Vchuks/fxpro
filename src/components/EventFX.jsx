@@ -53,13 +53,13 @@ Over 100 scholarships are available to attendees who fund their wallet at the ev
               ref={eventref}
             />
             <Link to="/#join">
-              <button className="max-[345px]:w-full w-[21rem] bg-plcorange p-2 md:p-3 rounded-lg font-[gmedium] text-white text-sm mt-4">
+              <button className="relative max-[345px]:w-full w-[21rem] bg-plcorange p-2 md:p-3 rounded-lg font-[gmedium] text-white text-sm mt-4">
                 Join Event
-              </button>
-            </Link>
-            <div className="hidden lg:block absolute w-[35px] left-[50%] lg:left-[70%] xl:left-[50%] 2xl:left-[33%] xxxl:left-[28%] -bottom-2">
+            <div className="hidden md:block absolute w-[35px] left-[105%] -bottom-2">
               <img src={curve3} alt="" className="w-full" loading="lazy" />
             </div>
+              </button>
+            </Link>
           </div>
         </div>
         <div className="w-full  " data-aos="fade-up" data-aos-duration="2000">

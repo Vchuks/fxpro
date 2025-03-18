@@ -14,6 +14,7 @@ function App() {
       <Route path="/" element ={
       <Home/>
       }/>
+      <Route path='*' element={<p className='text-center p-20 text-5xl font-[aristbold]'>Page Not Found!</p>}/>
     </Routes>
     </>
   )

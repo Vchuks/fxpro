@@ -9,14 +9,14 @@ const UserMap = () => {
   >
     <Map
       style={{width: '100%', height: '100%', borderRadius: '40px', margin:"auto", overflow:"hidden"}}
-      defaultCenter={{lat: 22.54992, lng: 0}}
-      defaultZoom={3}
+      defaultCenter={{lat: 6.605874, lng: 3.349149}}
+      defaultZoom={15}
       gestureHandling={'greedy'}
       disableDefaultUI={true}
       mapId={"7bb050ff10d43d16"}
 
     >
-          <AdvancedMarker position={{ lat: 22.54992, lng: 0 }} />
+          <AdvancedMarker position={{ lat: 6.605746, lng:3.348985 }} />
 
     </Map>
   </APIProvider>

@@ -2,7 +2,7 @@ import curve from "../assets/images/curv.png";
 import curve3 from "../assets/images/Vector 12.png";
 import eventDetails from "../assets/images/eventdetails.png";
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const EventDetails = () => {
   const [getD, setGetD] = useState(0);
@@ -10,15 +10,22 @@ const EventDetails = () => {
   const [getM, setGetM] = useState(0);
   const [getS, setGetS] = useState(0);
 
-  useEffect(() => {
-    const date = new Date();
-    setGetD(date.getDate());
-
-    setGetH(date.getHours());
-
-    setGetM(date.getMinutes());
-    setGetS(date.getSeconds());
-  }, [getS]);
+  
+  
+    setInterval(() => {
+        const countDownDate = new Date("April 5, 2025 10:00:00").getTime();
+        const now = new Date().getTime();
+        const getT =  countDownDate - now
+        
+        setGetD(Math.floor(getT / (1000 * 60 * 60 * 24)));
+    
+        setGetH(Math.floor((getT % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
+    
+        setGetM(Math.floor((getT % (1000 * 60 * 60)) / (1000 * 60)));
+        setGetS(Math.floor((getT % (1000 * 60)) / 1000));
+    }, 1000);
+   
+  
  
   const details = [
     {
@@ -83,13 +90,13 @@ const EventDetails = () => {
               ))}
             </div>
             <Link to="/#join">
-              <button className="max-[345px]:w-full w-[21rem] bg-plcorange p-2 md:p-3 rounded-lg font-[gmedium] text-white text-sm mt-8">
+              <button className="relative max-[345px]:w-full w-[21rem] bg-plcorange p-2 md:p-3 rounded-lg font-[gmedium] text-white text-sm mt-8">
                 View Event Details
-              </button>
-            </Link>
-            <div className="hidden lg:block absolute w-[35px] left-[50%] lg:left-[70%] xl:left-[50%] 2xl:left-[33%] xxxl:left-[28%] bottom-3">
+            <div className="hidden md:block absolute w-[35px] left-[105%]  bottom-3">
               <img src={curve3} alt="" className="w-full" loading="lazy" />
             </div>
+              </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -31,7 +31,7 @@ const Connect = () => {
       id="join"
     >
       <div className="bg-plcblue rounded-3xl md:rounded-[52.9px]">
-        <div className="px-3 md:px-6 py-8 md:py-16 flex flex-col xl:flex-row">
+        <div className="px-3 md:px-6 py-8 md:py-16 flex flex-col xl:flex-row xl:gap-2">
           <div className="w-full text-white flex flex-col justify-between">
             <h2 className="text-2xl w-full md:w-[35rem] text-white font-[aristsemibold] md:text-[52.9px] md:leading-none">
               We’re Here To Connect And Assist You
@@ -52,9 +52,8 @@ const Connect = () => {
                   EVENT LOCATION
                 </p>
                 <p className="md:text-lg syne md:pt-3 lg:w-[22rem]">
-                  Plot 8. Block 1, Memunat Ayodeji Crescent off Etal Hotel, by
-                  NNPC Filling Station, by first bank busstop,off kudirat Abiola
-                  way
+                 
+                  48 Orishe Street, Balogun Bus stop off Awolowo way Ikeja Lagos.
                 </p>
               </div>
               <div>
@@ -73,7 +72,7 @@ const Connect = () => {
                     rel="noreferrer"
                     href="https://www.facebook.com/PlcTechAcademy?mibextid=LQQJ4d"
                   >
-                    <img src={icon1} alt="" className="w-5 h-fit" />
+                    <img src={icon1} alt="" className="w-5" />
                   </a>
 
                   <a
@@ -81,16 +80,16 @@ const Connect = () => {
                     rel="noreferrer"
                     href="https://www.linkedin.com/company/pluralcode-technologies/"
                   >
-                    <img src={icon2} alt="" className="w-5 h-fit" />
+                    <img src={icon2} alt="" className="w-5" />
                   </a>
                   <a
                     target="_blank"
                     rel="noreferrer"
                     href="https://instagram.com/pluralcode_academy?igshid=MzRlODBiNWFlZA=="
                   >
-                    <img src={icon3} alt="" className="w-5 h-fit" />
+                    <img src={icon3} alt="" className="w-5" />
                   </a>
-                  <img src={icon4} alt="" className="w-5 h-fit" />
+                  <img src={icon4} alt="" className="w-5" />
                 </div>
               </div>
             </div>
@@ -99,7 +98,7 @@ const Connect = () => {
             <form
               id="formD"
               action="https://script.google.com/macros/s/AKfycbzZ89xyGWTtoJFjh53h3GsjRFb3QrznkmtbeMrnAtK0_7n9P-qXZlyFr6safxm8cZ7b8g/exec"
-              className="w-full lg:w-[90%] lg:m-auto xl:ml-auto bg-[#FFFAF4] text-[#1C1A1A] syne rounded-3xl md:rounded-[52.9px] p-4 md:p-6 py-8 md:py-16"
+              className="w-full lg:w-[85%] lg:m-auto xl:ml-auto bg-[#FFFAF4] text-[#1C1A1A] syne rounded-3xl md:rounded-[52.9px] p-4 md:p-6 py-8 md:py-16"
             >
               <h2 className="text-xl md:text-[32px] font-[aristbold]">
                 GET IN TOUCH

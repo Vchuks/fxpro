@@ -43,7 +43,7 @@ const Footer = () => {
         
       </div>
 
-      <div className="w-full foot grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 lg:justify-center gap-5 lg:mt-0  lg:pb-10">
+      <div className="w-full foot grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 lg:justify-center gap-y-5 md:gap-5 xl:gap-0 lg:mt-0  lg:pb-10">
         <div className="flex flex-col gap-2 font-[gregular]">
           <h5 className="pb-1 xxxl:text-2xl">Schools</h5>
           <Link className="xxxl:text-xl" to="#">School of Engineering</Link>
@@ -77,7 +77,7 @@ const Footer = () => {
           <div className="flex gap-3 xxxl:text-xl items-center"><img className="w-4 xxxl:w-5" alt="" src={twitout} /><a href="https://twitter.com/pluralcode?s=21&t=B1MuR2VoGVHj3cpdZyDZzw" target="_blank" rel="noreferrer">pluralcode</a></div>
           <div className="flex gap-3 xxxl:text-xl items-center"><img className="w-4 xxxl:w-5" alt="" src={inout} /><a href="https://instagram.com/pluralcode_academy?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noreferrer">pluralcode_academy</a></div>
           <div className="flex gap-3 xxxl:text-xl items-center"><img className="w-4 xxxl:w-5" alt="" src={faceout}/><a href="https://www.facebook.com/PlcTechAcademy?mibextid=LQQJ4d" target="_blank" rel="noreferrer">pluralcode_academy</a></div>
-          <div className="flex gap-3 xxxl:text-xl items-center"><img className="w-4 xxxl:w-5" alt="" src={email}/><Link to="mailto:Info@pluralcode.academy" target="_blank">support@pluralcode.academy</Link></div>
+          <div className="flex gap-3 xxxl:text-xl items-center"><img className="w-4 xxxl:w-5" alt="" src={email}/><Link to="mailto:Info@pluralcode.academy" target="_blank" className="break-words overflow-hidden">support@pluralcode.academy</Link></div>
         </div>
         
         <div className="lg:col-start-2 flex flex-col gap-2">
